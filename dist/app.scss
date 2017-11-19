@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+body {
+    margin: 0;
+    height: 100%;
+}
+
+main {
+    overflow: hidden;
+    margin-top: -21;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    font-family: Oswald;
+    border-bottom: 2px solid black;
+    background: #7f0000;
+    color: #fff;
+}
+
+.contactList {
+    width: 30%;
+    float: left;
+    height: 95%;
+    overflow: scroll;
+    margin-top: -20px;
+    margin-bottom: 35px;
+
+
+    ul{
+        list-style: none;
+        width: 100%;
+        margin-left: none;
+        float: right;
+        border-right: 1px solid #7f0000;
+        font-family: Merriweather;
+    }
+
+    li{
+        width: 100%;
+        border-top: 1px solid #7f0000;
+        border-bottom: 1px solid #7f0000;
+        vertical-align: middle;
+        -webkit-transition: all 0.5s linear;
+        transition: all 0.5s linear;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+      }
+
+    li:hover{
+        -webkit-transform: scale3d(1.2, 1.2, 1);
+                transform: scale3d(1.2, 1.2, 1);
+                background: #7f0000;
+                transition: background 1s ease-in-out;                 
+      }
+      a:hover{ 
+      
+        color: #ffffff;
+
+      }
+
+
+    img {
+            float: left;
+            margin-right: 30px;
+            border-radius: 5px;
+        }
+
+    svg {
+        padding-right: 5px;
+    }
+    p {
+        margin: auto;
+    }
+    a {
+        text-decoration: none;
+        color: #7f0000;
+    }
+
+}
+
+.contactDetails {
+    font-family: Merriweather;
+    transition: all 0.2s ease;
+    float: right;
+    width: 68%;
+    padding-top: 90px;
+
+    img {
+        display: block;
+        margin: auto;
+        border-radius: 5px;
+    }
+    
+
+    h2{
+        font-family: Oswald;
+        width: 100%;
+        text-align: center;
+        svg {
+            font-size: 24pt;
+            padding: 10px;
+            color: #680034;
+            
+        }
+    }
+    .contactInfo {
+        p {
+            width: 50%;
+            font-size: 16pt;
+            float: left;
+            vertical-align: middle;
+
+            svg {
+                font-size: 24pt;
+                padding: 10px;
+                border-right: 1px solid black;
+                margin-right: 10px;
+            }
+        }
+
+    }
+
+    .contactAddress {
+        padding-top: 10px;
+        width: 100%;
+        clear: both;
+        
+        p {
+            font-size: 16pt;
+            float: left;
+            vertical-align: middle;
+        }
+
+            svg {
+                font-size: 24pt;
+                padding: 10px;
+                border-right: 1px solid black;
+                margin-right: 10px;
+                float: left;
+            }
+        
+    }
+
+
+}
+
+footer{
+    clear: both;
+    border: 1px groove #aaaaaa;
+    background: #7f0000;
+    color: #ffffff;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    font-family: Oswald;
+
+}
